@@ -6,6 +6,7 @@ app.use(express.json())
 const dotenv=require('dotenv')
 
 
+
 if(process.env.OMG === "DEV"){
     dotenv.config({path:'./config/.env.dev'})
 }
